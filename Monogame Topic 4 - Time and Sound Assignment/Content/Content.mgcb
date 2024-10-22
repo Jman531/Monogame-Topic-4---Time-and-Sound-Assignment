@@ -25,3 +25,10 @@
 /processorParam:TextureFormat=Color
 /build:bomb.png
 
+#begin Time.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Time.spritefont
+
