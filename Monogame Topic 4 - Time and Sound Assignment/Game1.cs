@@ -84,7 +84,7 @@ namespace Monogame_Topic_4___Time_and_Sound_Assignment
             }
 
             mouseState = Mouse.GetState();
-            if (bombRect.Intersects(mouseRect) && mouseState.LeftButton == ButtonState.Pressed)
+            if (bombRect.Intersects(mouseRect) && mouseState.LeftButton == ButtonState.Pressed && !bombExploded)
                 seconds = 15f;
 
             base.Update(gameTime);
